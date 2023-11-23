@@ -50,7 +50,7 @@ def encode_faces(img, shapes):
 
 def facepass():
     # ============유사도 기준 사진 랜드마크 추출==================
-    img_paths = {'IYU': './sample/IYU.jpg',}#유사도 기준 사진
+    img_paths = {'IYU': './IYU.jpg',}#유사도 기준 사진
 
     descs = []
 
